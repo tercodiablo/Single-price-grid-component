@@ -98,6 +98,9 @@ button{
     font-weight: 700;
     color: var(--Light-Gray);
 }
+button:hover{
+    background:linear-gradient(hsl(71, 73%, 54%), hsl(96, 54%, 49%));
+}
 
 .item3 { 
     grid-area: info; 
@@ -159,5 +162,8 @@ ul{
         margin-top: 1rem;
         padding: .8rem;
         border: none;
+    }
+    button:hover{
+        background:linear-gradient(hsl(71, 73%, 54%), hsl(71, 73%, 54%));
     }
 }
