@@ -22,9 +22,9 @@ body{
 }
 
 .container{
-    max-width: 800px;
+    max-width: 750px;
     overflow: hidden;
-    width: 800px;
+    width: 750px;
     border-radius: 10px;
     background-color: var(--Cyan);
     box-shadow: 0 3px 8px hsla(207, 47%, 40%, 0.266);
