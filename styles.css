@@ -82,6 +82,7 @@ body{
 .item2 .full-access{
     color: var(--Light-Gray);
     font-weight: lighter;
+    font-size: small;
     line-height: 2rem;
 }
 
