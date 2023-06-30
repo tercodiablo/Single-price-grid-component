@@ -22,9 +22,9 @@ body{
 }
 
 .container{
-    max-width: 800px;
+    max-width: 780px;
     overflow: hidden;
-    width: 800px;
+    width: 780px;
     border-radius: 10px;
     background-color: var(--Cyan);
     box-shadow: 0 3px 8px hsla(207, 47%, 40%, 0.266);
@@ -45,7 +45,7 @@ body{
     border-radius: 10px 10px 0 0;
     padding: 1.8rem 1.8rem 3rem 1.8rem; 
 }
-.item1  h1{
+.item1  header{
     color: var(--Cyan);
     line-height: 3rem;
 }
@@ -64,7 +64,7 @@ body{
     border-radius: 0 0 0 10px;
     padding: 2rem;
 }
-.item2 h4{
+.item2 header{
     color: var(--Light-Gray);
     padding-bottom: 1.5rem;
 }
@@ -110,7 +110,7 @@ button:hover{
     color: var(--Light-Gray);
     padding: 2rem;
 }
-.item3 h4{
+.item3 header{
     color: var(--Light-Gray);
     padding-bottom: 1rem;
 }
@@ -118,6 +118,7 @@ ul{
     opacity: .7;
     padding: 0 3rem .5rem 0;
     font-weight: lighter;
+    font-size: small;
 }
 .item3 li{
     line-height: 1.3rem;
@@ -126,7 +127,7 @@ ul{
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width:650px){
+@media screen and (max-width:660px){
     .grid{
         display: grid;
         grid-template-areas: "head head"
@@ -138,7 +139,7 @@ ul{
     .item1{
         padding: 1rem 1.6rem 1.6rem 1.8rem; 
     }
-    .item1  h1{
+    .item1  header{
         color: var(--Cyan);
         padding-bottom: 1rem;
     }
