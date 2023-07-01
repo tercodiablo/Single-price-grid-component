@@ -45,17 +45,18 @@ body{
     border-radius: 10px 10px 0 0;
     padding: 1.8rem 1.8rem 3rem 1.8rem; 
 }
-.item1  header{
+.item1  h1{
     color: var(--Cyan);
     line-height: 3rem;
+    font-size: 2rem;
 }
-.item1 h3{
+.item1 h2{
     color: var(--Bright-Yellow);
     line-height: 3rem;
 }
 .item1 p{
     color: var(--Grayish-Blue);
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .item2 { 
